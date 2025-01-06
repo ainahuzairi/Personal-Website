@@ -1,0 +1,114 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="gallery-style.css" type="text/css">
+    <title>Gallery</title>
+		
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url("picture/gallery/bg4.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+      }
+
+      .header {
+        text-align: center;
+        padding: 32px;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+
+      .gallery-container {
+        margin: 20px auto;
+        max-width: 1200px; 
+        padding: 20px;
+        border: 10px solid #000;
+        border-radius: 10px; 
+        background-color: rgba(255, 255, 255, 0.9); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+      }
+
+      .gallery {
+        column-count: 4; 
+        column-gap: 5px; 
+        padding: 10px;
+      }
+
+      .gallery img {
+        width: 100%;
+        margin-bottom: 5px; 
+        border-radius: 5px;
+        display: block;
+      }
+
+      @media (max-width: 800px) {
+        .gallery {
+          column-count: 3;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .gallery {
+          column-count: 2;
+        }
+      }
+
+      @media (max-width: 400px) {
+        .gallery {
+          column-count: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1 style="font-family: Fantasy; font-size: 80px; color: #3c0008; font-weight: bold;">Gallery</h1>
+	  
+
+      <p style="font-family: Monospace; font-size: 15px;">Some of my core memories with my beloved family, friends and my internship colleague</p>
+    </div>
+
+	
+	
+	<div class="gallery-container">
+      <div class="gallery">
+	
+						  
+							  <ul>
+								  <li><a href="#img_1"><img src="picture/gallery/pic1.jpg"></a></li>
+									<li><a href="#img_2"><img src="picture/gallery/pic2.jpg"></a></li>
+									<li><a href="#img_3"><img src="picture/gallery/pic3.jpg"></a></li>
+									<li><a href="#img_4"><img src="picture/gallery/pic4.jpg"></a></li>
+									<li><a href="#img_5"><img src="picture/gallery/pic5.jpg"></a></li>
+									<li><a href="#img_6"><img src="picture/gallery/pic6.jpg"></a></li>
+									<li><a href="#img_7"><img src="picture/gallery/pic7.jpg"></a></li>
+									<li><a href="#img_8"><img src="picture/gallery/pic8.jpg"></a></li>
+									<li><a href="#img_9"><img src="picture/gallery/pic9.jpg"></a></li>
+									<li><a href="#img_10"><img src="picture/gallery/pic10.jpg"></a></li>
+								
+					
+								</ul>
+								<a href="#_1" class="lightbox trans" id="img_1"><img src="picture/gallery/pic1.jpg"></a>
+								<a href="#_2" class="lightbox trans" id="img_2"><img src="picture/gallery/pic2.jpg"></a>
+								<a href="#_3" class="lightbox trans" id="img_3"><img src="picture/gallery/pic3.jpg"></a>
+								<a href="#_4" class="lightbox trans" id="img_4"><img src="picture/gallery/pic4.jpg"></a>
+								<a href="#_5" class="lightbox trans" id="img_5"><img src="picture/gallery/pic5.jpg"></a>
+								<a href="#_6" class="lightbox trans" id="img_6"><img src="picture/gallery/pic6.jpg"></a>
+								<a href="#_7" class="lightbox trans" id="img_7"><img src="picture/gallery/pic7.jpg"></a>
+								<a href="#_8" class="lightbox trans" id="img_8"><img src="picture/gallery/pic8.jpg"></a>
+								<a href="#_9" class="lightbox trans" id="img_9"><img src="picture/gallery/pic9.jpg"></a>
+								<a href="#_10" class="lightbox trans" id="img_10"><img src="picture/gallery/pic10.jpg"></a>
+								
+							
+						
+	</div>
+    </div>
+	
+  </body>
+</html>
